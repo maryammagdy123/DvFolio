@@ -1,0 +1,55 @@
+/* xxl screen (default) */
+
+@media (max-width: 1400px) {}
+
+
+/* xl screen */
+
+@media (max-width: 1399.98px) {}
+
+
+/* l screen */
+
+@media (max-width: 1199.98px) {}
+
+
+/* md screen */
+
+@media (max-width: 991.98px) {}
+
+
+/* sm screen */
+
+@media (max-width: 767.98px) {
+    .home-body .home-header {
+        font-size: 48px;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.885);
+        transition: background-color 0.1s ease;
+    }
+    .navbar-toggler:focus+.navbar-collapse,
+    .navbar-collapse.show {
+        background-color: var(--white);
+    }
+    .navbar-collapse.show .nav-link {
+        color: black !important;
+    }
+    .home-section {
+        background-attachment: scroll;
+    }
+    .navbar-nav {
+        height: 100vh;
+    }
+    /* end home section */
+    /* ------------------------------ */
+    /* counter section */
+    .counter-section {
+        background-attachment: scroll;
+    }
+}
+
+
+/* xs screen */
+
+@media (max-width: 575.98px) {}
