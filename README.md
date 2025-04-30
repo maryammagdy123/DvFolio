@@ -31,8 +31,8 @@ DevFolio is a responsive single-page portfolio website built using HTML, CSS, an
 
 To view this portfolio website:
 
-1.  Clone or download the repository files.
-2.  Open the `index.html` file in your web browser.
+1.  Repo: https://github.com/maryammagdy123/DvFolio.git
+
 
 No further installation is required as it is a static website.
 
